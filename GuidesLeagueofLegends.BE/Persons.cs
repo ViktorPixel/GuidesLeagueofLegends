@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace GuidesLeagueofLegends.BE
 {
-    public class Class1
+    public class Persons
     {
+        public int ID { get; set; }
+        public string NameHero { get; set; }
+        public string Description { get; set; }
     }
 }

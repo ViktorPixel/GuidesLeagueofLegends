@@ -28,9 +28,24 @@ namespace GuidesLeagueofLegends.BL
             EditDALC.AddPerson(persons);          
         }
 
+        public void AddGuides(Guides guides)
+        {
+            EditDALC.AddGuides(guides);
+        }
+
         public List<Persons> GetPersons()
         {
             return EditDALC.GetPersons();
+        }
+
+        public List<Guides> GetGuides()
+        {
+            return EditDALC.GetGuides();
+        }
+
+        public List<Guides> GetGuides(int heroID)
+        {
+            return EditDALC.GetGuides(heroID);
         }
     }
 }
